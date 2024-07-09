@@ -1,20 +1,24 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: #f8f9fa;
+}
+
 nav {
-  background-color: lightsteelblue;
+  background-color: black;
   color: white;
-  padding: 20px 200px;
+  padding: 20px 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 nav p {
+  color: #48cae4;
   margin: 0;
   font-weight: bold;
   font-size: 32px;
@@ -24,7 +28,6 @@ nav p {
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   display: flex;
 }
 
@@ -43,7 +46,56 @@ nav ul li a {
 }
 
 #home {
-  padding-left: 200px;
+  padding-top: 200px;
+  padding-left: 300px;
+  padding-bottom: 400px;
+}
+
+#home p {
+  color: #48cae4;
+  font-size: 18px;
+}
+
+#home p:first-child {
+  margin-bottom: 18px;
+}
+
+#home h1 {
+  font-size: 72px;
+  margin-bottom: 18px;
+}
+
+#home h2 {
+  font-size: 54px;
+  margin-bottom: 18px;
+}
+
+.button {
+  display: inline-block;
+  padding: 18px 36px;
+  background-color: #48cae4;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 18px;
+  margin-top: 72px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #1e90ff; /* Change color on hover if desired */
+}
+
+#projects {
+  padding-left: 300px;
+}
+
+#projects h1 {
+  font-size: 72px;
+  margin-bottom: 100px;
 }
 
 img {
