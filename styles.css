@@ -86,10 +86,11 @@ nav ul li a {
 }
 
 .btn:hover {
-  background-color: #1e90ff; /* Change color on hover if desired */
+  background-color: #1e90ff;
 }
 
 #projects {
+  max-width: 1000px;
   padding-left: 300px;
 }
 
@@ -98,8 +99,47 @@ nav ul li a {
   margin-bottom: 100px;
 }
 
-img {
+.project {
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project a {
+  text-decoration: none;
+  color: black;
+}
+
+.project img {
   max-width: 100%;
   height: auto;
-  width: 300px;
+  width: 600px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.project-description h2 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.project-description h3 {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: normal;
+}
+
+.project-description h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #1e90ff;
 }
